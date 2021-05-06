@@ -1,0 +1,44 @@
+cat arun_Drill1
+touch arun_Drill1.text
+cd arun_Drill1
+clear
+mkdir Drill
+cd Drill
+mkdir hello
+cd hello
+mkdir five one
+cd five
+mkdir six
+cd six
+touch c.txt
+mkdir seven
+cd seven
+touch error.log
+cd
+cd hello/one
+cd Drill/hello/one
+touch a.text b.text
+mkdir two
+cd two
+touch d.txt
+mkdir three
+cd three
+touch e.txt
+mkdir four
+cd four
+touch access.log
+cd
+cd Drill
+mv *.log
+find . -name "*.log" -type f -delete
+cd hello/one
+cat >a.txt
+cd ..
+rm -rf five
+mv one uno
+mv a.txt two
+cd uno
+mv a.txt two
+history
+cd
+history -w ~/Desktop/history_of_terminal.txt
